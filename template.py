@@ -7,6 +7,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 project_name = "mlProject"
 
+#Following is the folder structure that we want to create
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -29,10 +30,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "templates/index.html",
-    "test.py"
-
-
+    "templates/index.html"
 ]
 
 

@@ -166,3 +166,58 @@ MLflow
  - Logging & tagging your model
 
 
+## Folder Structure and Files Explaination
+.github/workflows: This has been crated for CICD pipeline as we used github actions for deployment
+
+.github/workflows/.gitkeep: This file is used to keep the .github/workflows folder in the git repo. This file is required as git does not allow to keep empty folders in the repo
+
+template.py: This is the template file to create the folder and file structure for any Machine Learning project
+
+research: This folder contains all the research work done for the project in jupyter notebook files
+
+artifact: This folder contains all the artifacts of the project like model files, data validation output, tranformed data etc.
+
+config/config.yaml: This file contains all the configuration for the project
+
+src/mlProject/components: This folder contains all the components of the project like data validation, data transformation, model training, model evaluation etc.
+
+__init__.py in each folder: This is a constructor file created to use python files in that directory as a package
+
+
+static and templates: These folders contains html and css files for the frontend and used for flask app deployment
+
+app.py: This is the main file for flask app deployment
+
+main.py: This is the main file for the project
+
+params.yaml: This file contains all the parameters for the ML Model
+
+schema.yaml: This file contains the schema of the data
+
+requirements.txt: This file contains all the required libraries for the project
+
+Dockerfile: This file contains all the commands to create a docker image
+
+.gitignore: This file contains all the files and folders to be ignored by git
+
+setup.py:
+
+
+## Packages and libraries used
+
+- pandas: To read and manipulate data
+- numpy: To perform mathematical operations
+- scikit-learn: To perform machine learning operations
+- mlflow: To track all the experiments and model parameters
+- pyyaml: To read yaml files
+- pytest: To perform unit testing
+- dagshub: To track all the experiments and model parameters
+- flask: To deploy the model as a web app
+- python-box: 
+- -e .: this will look for the setup.py  and install all the files mentioned in setup.py as a local package
+- from ensure import ensure_annotations: to use @ensure_annotations decorator to ensure the type of the input parameters in a function(refer research/trial.py for more details)
+- from box import ConfigBox: used to call dictionary values using . operator instead of ['key']. This makes the code developement easy and fast (refer research/trial.py for more details)
+- joblib: alternative to pickle to save the model
+- docker: to create docker image of the project to host in cloud platforms like AWS, GCP, Azure etc.
+
+
