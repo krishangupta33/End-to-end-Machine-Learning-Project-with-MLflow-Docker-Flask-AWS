@@ -166,14 +166,16 @@ MLflow
  - Logging & tagging your model
 
 
-## Folder Structure and Files Explaination
-.github/workflows: This has been crated for CICD pipeline as we used github actions for deployment
+**Folder Structure and Files Explanation**
 
-.github/workflows/.gitkeep: This file is used to keep the .github/workflows folder in the git repo. This file is required as git does not allow to keep empty folders in the repo
+`.github/workflows`: Created for CI/CD pipeline using GitHub Actions for deployment.
 
-template.py: This is the template file to create the folder and file structure for any Machine Learning project
+`.github/workflows/.gitkeep`: This file ensures the .github/workflows folder is kept in the Git repo. Git requires this as it doesn't allow empty folders.
 
-research: This folder contains all the research work done for the project in jupyter notebook files
+`template.py`: Template file for creating the folder and file structure for any Machine Learning project.
+
+`research`: Folder containing all research work for the project in Jupyter notebook files.
+
 
 artifact: This folder contains all the artifacts of the project like model files, data validation output, tranformed data etc.
 
