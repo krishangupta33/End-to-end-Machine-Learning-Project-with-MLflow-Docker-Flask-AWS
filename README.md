@@ -166,7 +166,7 @@ MLflow
  - Logging & tagging your model
 
 
-**Folder Structure and Files Explanation**
+## Folder Structure and Files Explanation
 
 `.github/workflows`: Created for CI/CD pipeline using GitHub Actions for deployment.
 
@@ -177,49 +177,48 @@ MLflow
 `research`: Folder containing all research work for the project in Jupyter notebook files.
 
 
-artifact: This folder contains all the artifacts of the project like model files, data validation output, tranformed data etc.
+`artifact`: This folder contains all the artifacts of the project like model files, data validation output, tranformed data etc.
 
-config/config.yaml: This file contains all the configuration for the project
+`config/config.yaml`: This file contains all the configuration for the project
 
-src/mlProject/components: This folder contains all the components of the project like data validation, data transformation, model training, model evaluation etc.
+`src/mlProject/components`: This folder contains all the components of the project like data validation, data transformation, model training, model evaluation etc.
 
-__init__.py in each folder: This is a constructor file created to use python files in that directory as a package
+`__init__.py in each folder`: This is a constructor file created to use python files in that directory as a package
 
 
-static and templates: These folders contains html and css files for the frontend and used for flask app deployment
+`static and templates`: These folders contains html and css files for the frontend and used for flask app deployment
 
-app.py: This is the main file for flask app deployment
+`app.py`: This is the main file for flask app deployment
 
-main.py: This is the main file for the project
+`main.py`: This is the main file for the project
 
-params.yaml: This file contains all the parameters for the ML Model
+`params.yaml`: This file contains all the parameters for the ML Model
 
-schema.yaml: This file contains the schema of the data
+`schema.yaml`: This file contains the schema of the data
 
-requirements.txt: This file contains all the required libraries for the project
+`requirements.txt`: This file contains all the required libraries for the project
 
-Dockerfile: This file contains all the commands to create a docker image
+`Dockerfile`: This file contains all the commands to create a docker image
 
-.gitignore: This file contains all the files and folders to be ignored by git
+`.gitignore`: This file contains all the files and folders to be ignored by git
 
-setup.py:
+`setup.py`:to install all the files mentioned in setup.py as a local package
 
 
 ## Packages and libraries used
 
-- pandas: To read and manipulate data
-- numpy: To perform mathematical operations
-- scikit-learn: To perform machine learning operations
-- mlflow: To track all the experiments and model parameters
-- pyyaml: To read yaml files
-- pytest: To perform unit testing
-- dagshub: To track all the experiments and model parameters
-- flask: To deploy the model as a web app
-- python-box: 
-- -e .: this will look for the setup.py  and install all the files mentioned in setup.py as a local package
-- from ensure import ensure_annotations: to use @ensure_annotations decorator to ensure the type of the input parameters in a function(refer research/trial.py for more details)
-- from box import ConfigBox: used to call dictionary values using . operator instead of ['key']. This makes the code developement easy and fast (refer research/trial.py for more details)
-- joblib: alternative to pickle to save the model
-- docker: to create docker image of the project to host in cloud platforms like AWS, GCP, Azure etc.
+- `pandas`: To read and manipulate data
+- `numpy`: To perform mathematical operations
+- `scikit-learn`: To perform machine learning operations
+- `mlflow`: To track all the experiments and model parameters
+- `pyyaml`: To read yaml files
+- `pytest`: To perform unit testing
+- `dagshub`: To track all the experiments and model parameters
+- `flask`: To deploy the model as a web app
+- `-e .`: this will look for the setup.py  and install all the files mentioned in setup.py as a local package
+- `from ensure import ensure_annotations`: to use @ensure_annotations decorator to ensure the type of the input parameters in a function(refer research/trial.py for more details)
+- `from box import ConfigBox`: used to call dictionary values using . operator instead of ['key']. This makes the code developement easy and fast (refer research/trial.py for more details)
+- `joblib`: alternative to pickle to save the model
+- `docker`: to create docker image of the project to host in cloud platforms like AWS, GCP, Azure etc.
 
 
