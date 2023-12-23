@@ -638,3 +638,16 @@ x==========x]
 [2023-12-23 07:04:51,675: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:04:51] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
 [2023-12-23 07:04:51,676: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:04:51] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
 [2023-12-23 07:04:51,688: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:04:51] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-23 07:16:21,548: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.53.233:8080]
+[2023-12-23 07:16:21,548: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-23 07:16:31,667: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "GET / HTTP/1.1" 200 -]
+[2023-12-23 07:16:31,681: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-23 07:16:31,682: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-23 07:16:31,683: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-23 07:16:31,684: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-23 07:16:31,748: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2023-12-23 07:16:31,750: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2023-12-23 07:16:31,790: INFO: _internal: 10.20.53.233 - - [23/Dec/2023 07:16:31] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
