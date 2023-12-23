@@ -2,10 +2,10 @@ Metadata-Version: 2.1
 Name: mlProject
 Version: 0.0.0
 Summary: A small python package for ml app
-Home-page: https://github.com/entbappy/End-to-end-ML-Project-with-MLflow
-Author: entbappy
-Author-email: entbappy73@gmail.com
-Project-URL: Bug Tracker, https://github.com/entbappy/End-to-end-ML-Project-with-MLflow/issues
+Home-page: https://github.com/krishangupta33/End-to-end-Machine-Learning-Project-with-MLflow-Docker-Flask-AWS
+Author: krishan
+Author-email: krishan.gupta@mail.mcgill.ca
+Project-URL: Bug Tracker, https://github.com/krishangupta33/End-to-end-Machine-Learning-Project-with-MLflow-Docker-Flask-AWS/issues
 License-File: LICENSE
 
 # End-to-end-Machine-Learning-Project-with-MLflow
