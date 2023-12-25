@@ -14,7 +14,6 @@
 9. Update the app.py
 
 
-
 # How to run?
 ### STEPS:
 
@@ -63,20 +62,20 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/krishangupta33/End-to-end-Machine-Learning-Project-with-MLflow-Docker-Flask-AWS.mlflow \
+MLFLOW_TRACKING_USERNAME=krishangupta33 \
+MLFLOW_TRACKING_PASSWORD=b2afd9e768088515f8bec09ae9c28b80efbc0dd9 \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/krishangupta33/End-to-end-Machine-Learning-Project-with-MLflow-Docker-Flask-AWS.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=krishangupta33 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=b2afd9e768088515f8bec09ae9c28b80efbc0dd9
 
 ```
 
